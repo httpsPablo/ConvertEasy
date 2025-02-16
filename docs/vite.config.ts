@@ -7,4 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/ConvertEasy/', // 🔹 Cambia esto por el nombre de tu repo en GitHub
+  build: {
+    outDir: 'docs' // 🔹 Generará los archivos en la carpeta "docs/"
+  }
 });
